@@ -45,6 +45,7 @@ class MinHeap():
         return self.heap.pop()
 
 
+# 무작위 리스트 생성
 unsorted_list = common.makeRandomList()
 
 
