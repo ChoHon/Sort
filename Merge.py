@@ -3,6 +3,7 @@ import common
 # 무작위 리스트 생성
 unsorted_list = common.makeRandomList()
 
+
 def Merge(unsorted, left, right):
     # 정렬값 저장을 위한 임시 배열
     temp_list = []
