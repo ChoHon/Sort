@@ -5,7 +5,6 @@ This repository was built to practice git and sort algorithm
 3. Insertion Sort
 4. Merge Sort
 5. Heap Sort
-----finished----
 6. Quick Sort
 ----finished----
 7. Shell's Sort
