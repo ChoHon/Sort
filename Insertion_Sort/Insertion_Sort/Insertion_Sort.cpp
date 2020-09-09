@@ -19,11 +19,11 @@ int Insertion_Sort(int array[], int len) {
 void Check_Sort(int array[], int len) {
 	for (int i = 0; i < len - 1; i++) {
 		if (array[i] > array[i + 1]) {
-			printf("정렬이 잘못되었습니다\n");
+			printf("Not Sorted\n");
 			return;
 		}
 	}
-	printf("정렬되어 있습니다.\n");
+	printf("Sorted\n");
 	return;
 }
 
@@ -42,9 +42,9 @@ int main(void) {
 	end = clock();
 	printf("Finish\n\n");
 
-	printf("정렬 확인\n");
+	printf("Check Sort\n");
 	Check_Sort(array, LEN);
-	printf("\n걸린 시간\n%f\n", (double)(end - start) / CLOCKS_PER_SEC);
+	printf("\nTime\n%f\n", (double)(end - start) / CLOCKS_PER_SEC);
 
 	return 0;
 }
